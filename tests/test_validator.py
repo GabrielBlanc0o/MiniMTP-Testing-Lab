@@ -15,3 +15,9 @@ def test_edad_menor_minimo():
 def test_usuario_corto():
     resultado = validador("Gabo", 20)
     assert resultado == "Usuarios de 5 - 12 caracteres solamente"
+    
+# caso de prueba edad incorrecta (No numerica)
+
+def test_edad_no_numerica():
+    resultado = validador("Juanpis",'')
+    assert resultado == "Error: la edad deber ser un numero"

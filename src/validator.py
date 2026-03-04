@@ -23,10 +23,3 @@ def validador(self,usuario,edad):
     
     time(2)
     return "Registro exitoso"
-    
-    
-          
-    
-    
-    
-    

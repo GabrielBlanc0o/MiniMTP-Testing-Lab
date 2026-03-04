@@ -1,8 +1,8 @@
 from time import *
 
-def validador(self,usuario,edad):
-    self.usuario = str(usuario)
-    self.edad = edad 
+def validador(usuario,edad):
+    usuario = str(usuario)
+    edad = edad 
     
     #mayor_longitud_usuarioa = usuario > 12 < 5 mejor con len()
     #mayor_lon_edad = edad >=18 < 99
@@ -21,5 +21,4 @@ def validador(self,usuario,edad):
     except ValueError:
         return "Error: la edad deber ser un numero"
     
-    time(2)
     return "Registro exitoso"

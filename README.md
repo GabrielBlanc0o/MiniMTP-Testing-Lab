@@ -21,7 +21,7 @@ Se aplicaron técnicas de **Caja Negra**:
 
 ### Evidencia de ejecución (CI/CD)
 El proyecto cuenta con un workflow automatizado que ejecuta las pruebas en cada `push`. 
-> **Estado actual:** ✅ 3 Passed (Ver pestaña [Actions]([../../actions](https://github.com/GabrielBlanc0o/MiniMTP-Testing-Lab/actions/runs/22682178974/job/65755363341)))
+> **Estado actual:** ✅ 3 Passed (Ver pestaña [Actions]((https://github.com/GabrielBlanc0o/MiniMTP-Testing-Lab/actions/runs/22682178974/job/65755363341))
 
 
 ##  Gestión de Defectos
